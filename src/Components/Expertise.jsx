@@ -8,7 +8,7 @@ export default function Expertise(){
         <section className="flex flex-col  py-20 gap-10 w-full bg-[#f7f7f7] justify-center items-center " id="skills">
             <h1 className="md:text-5xl font-bold text-4xl  ">Technical Expertise</h1>
             <p className="md:text-xl  md:w-1/3 text-center">Comprehensive WordPress development skills with expertise in modern web technologies</p>
-            <article className="grid md:grid-cols-3 gap-7 md:p-10 md:px-5 md:w-[80%] w-full p-2 mx-auto" >
+            <article className="grid md:grid-cols-3 gap-7 md:p-10 md:px-5 md:w-[80%] w-full p-4 mx-auto" >
                 <div className="flex flex-col gap-4  p-4 bg-[rgb(255,255,255)] hover:shadow-2xl hover:bg-[#dae3ed68] rounded-2xl">
                     <FaGear size={50} color="white" className="border bg-blue-700 p-2 rounded-lg" />
                     <h1 className="text-lg font-bold">WordPress Core</h1>

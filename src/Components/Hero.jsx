@@ -7,8 +7,8 @@ export default function Hero() {
     return (
         <>
             <section className= {`  h-screen w-full  flex flex-col  items-center justify-center    brightness-100   `} id={style.hero} style={{background:`url(${bgimage}) center/cover no-repeat`}}>
-                <article className="flex flex-col text-center text-white  gap-6 items-center  h-full  justify-center   md:py-33 ">
-                    <h1 className="font-bold md:text-7xl md:w-2/3 text-6xl  ">WordPress Developer & Theme Customization Expert</h1>
+                <article className="flex flex-col text-center text-white  gap-6 items-center  h-full  justify-center p-3  md:py-33 ">
+                    <h1 className="font-bold md:text-7xl md:w-2/3 text-5xl  ">WordPress Developer & Theme Customization Expert</h1>
                     <p className="text-xl md:text-2xl font-bold">With 3+ years of experience crafting exceptional WordPress solutions</p>
                     <p className="md:w-1/3 ">Specializing in custom theme development, Elementor Pro, WooCommerce, and transforming Figma designs into pixel-perfect WordPress websites.</p>
                     <div className="flex justify-center gap-3 py-5">
